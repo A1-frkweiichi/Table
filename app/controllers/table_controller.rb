@@ -1,4 +1,4 @@
 class TableController < ApplicationController
-  def task
+  def tasks
   end
 end

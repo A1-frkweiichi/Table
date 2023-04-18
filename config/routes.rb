@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'table/task', to: 'table#task'
+  get 'table/tasks', to: 'table#tasks'
 end
