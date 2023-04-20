@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/furukawaeiichi/.nodenv/versions/15.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/furukawaeiichi/.nodenv/versions/15.14.0/bin:/usr/local/Cellar/nodenv/1.4.0/libexec:/Applications/Postgres.app/Contents/Versions/latest/bin:/opt/homebrew/opt/libpq/bin:/opt/homebrew/opt/mysql@5.7/bin:/opt/homebrew/opt/mysql@5.7/bin:/usr/local/opt/mysql@5.7/bin:/Users/furukawaeiichi/.pyenv/shims:/Users/furukawaeiichi/.nodenv/shims:/Users/furukawaeiichi/.rbenv/shims:/Users/furukawaeiichi/.rbenv/bin:/opt/homebrew/bin:/usr/local/opt/php@8.1/bin:/usr/local/opt/php@8.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbineval
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  15.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/furukawaeiichi/rails_practice/Tables/package.json: Unexpected string in JSON at position 232
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "Tables",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/furukawaeiichi/Table.git",
+    "author": "furukawaeiichi <102509805+furukawaeiichi@users.noreply.github.com>",
+    "license": "MIT"
+    "dependencies": {
+      "jquery": "^3.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

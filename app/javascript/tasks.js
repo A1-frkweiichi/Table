@@ -1,3 +1,5 @@
+import { Controller } from "stimulus";
+
 document.addEventListener("DOMContentLoaded", function () {
   const taskRows = document.querySelectorAll(".task-row");
 
@@ -7,3 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+import { Controller } from "stimulus";
+
+export default class extends Controller {
+  toggleStrikethrough(event) {
+    const taskText = event.currentTarget.querySelector(".task-text");
+    taskText.classList.toggle("strikethrough");
+  }
+}
